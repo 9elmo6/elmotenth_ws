@@ -1,0 +1,49 @@
+[3.787s] Invoking command in '/f1tenth_ws/src/f1tenth_system/f1tenth_stack': AMENT_PREFIX_PATH=/f1tenth_ws/install/vesc:/f1tenth_ws/install/vesc_driver:/f1tenth_ws/install/vesc_ackermann:/f1tenth_ws/install/joy_teleop:/f1tenth_ws/install/vesc_msgs:/f1tenth_ws/install/teleop_tools_msgs:/f1tenth_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/f1tenth_ws/install/vesc:/f1tenth_ws/install/vesc_driver:/f1tenth_ws/install/vesc_ackermann:/f1tenth_ws/install/vesc_msgs:/f1tenth_ws/install/teleop_tools_msgs:/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/f1tenth_ws/install/vesc_driver/lib:/f1tenth_ws/install/vesc_ackermann/lib:/f1tenth_ws/install/vesc_msgs/lib:/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/f1tenth_ws/build/f1tenth_stack/prefix_override:/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /f1tenth_ws/build/f1tenth_stack/build install --record /f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed
+[4.709s] running egg_info
+[4.711s] creating ../../../build/f1tenth_stack/f1tenth_stack.egg-info
+[4.711s] writing ../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO
+[4.712s] writing dependency_links to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt
+[4.717s] writing entry points to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt
+[4.718s] writing requirements to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt
+[4.718s] writing top-level names to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt
+[4.725s] writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[4.878s] reading manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[4.882s] writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[4.882s] running build
+[4.882s] running build_py
+[4.883s] creating /f1tenth_ws/build/f1tenth_stack/build
+[4.883s] creating /f1tenth_ws/build/f1tenth_stack/build/lib
+[4.884s] creating /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[4.884s] copying f1tenth_stack/throttle_interpolator.py -> /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[4.884s] copying f1tenth_stack/__init__.py -> /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[4.885s] copying f1tenth_stack/tf_publisher.py -> /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[4.886s] running install
+[4.889s] running install_lib
+[4.894s] creating /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[4.895s] copying /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/throttle_interpolator.py -> /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[4.896s] copying /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/__init__.py -> /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[4.896s] copying /f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/tf_publisher.py -> /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[4.899s] byte-compiling /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/throttle_interpolator.py to throttle_interpolator.cpython-38.pyc
+[4.909s] byte-compiling /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/__init__.py to __init__.cpython-38.pyc
+[4.910s] byte-compiling /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/tf_publisher.py to tf_publisher.cpython-38.pyc
+[4.911s] running install_data
+[4.914s] creating /f1tenth_ws/install/f1tenth_stack/share/ament_index
+[4.915s] creating /f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index
+[4.915s] creating /f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[4.915s] copying resource/f1tenth_stack -> /f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[4.916s] copying package.xml -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack
+[4.916s] creating /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[4.917s] copying launch/bringup_launch.py -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[4.920s] creating /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[4.921s] copying config/joy_teleop.yaml -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[4.921s] copying config/f1tenth_online_async.yaml -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[4.922s] copying config/vesc.yaml -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[4.924s] copying config/mux.yaml -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[4.925s] copying config/sensors.yaml -> /f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[4.925s] running install_egg_info
+[4.932s] Copying ../../../build/f1tenth_stack/f1tenth_stack.egg-info to /f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack-0.0.1-py3.8.egg-info
+[4.937s] running install_scripts
+[5.005s] Installing tf_publisher script to /f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[5.006s] Installing throttle_interpolator script to /f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[5.007s] writing list of installed files to '/f1tenth_ws/build/f1tenth_stack/install.log'
+[5.129s] Invoked command in '/f1tenth_ws/src/f1tenth_system/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/f1tenth_ws/install/vesc:/f1tenth_ws/install/vesc_driver:/f1tenth_ws/install/vesc_ackermann:/f1tenth_ws/install/joy_teleop:/f1tenth_ws/install/vesc_msgs:/f1tenth_ws/install/teleop_tools_msgs:/f1tenth_ws/install/ackermann_mux:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/f1tenth_ws/install/vesc:/f1tenth_ws/install/vesc_driver:/f1tenth_ws/install/vesc_ackermann:/f1tenth_ws/install/vesc_msgs:/f1tenth_ws/install/teleop_tools_msgs:/f1tenth_ws/install/ackermann_mux LD_LIBRARY_PATH=/f1tenth_ws/install/vesc_driver/lib:/f1tenth_ws/install/vesc_ackermann/lib:/f1tenth_ws/install/vesc_msgs/lib:/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/f1tenth_ws/build/f1tenth_stack/prefix_override:/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /f1tenth_ws/build/f1tenth_stack/build install --record /f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed
